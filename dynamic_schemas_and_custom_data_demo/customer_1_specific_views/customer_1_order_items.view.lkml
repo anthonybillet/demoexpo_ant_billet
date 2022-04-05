@@ -10,4 +10,6 @@ view: +order_items {
     sql: "Customer 1's Cool Data" ;;
   }
 
+  #this file could be programmatically generated via pylookML
+
 }
