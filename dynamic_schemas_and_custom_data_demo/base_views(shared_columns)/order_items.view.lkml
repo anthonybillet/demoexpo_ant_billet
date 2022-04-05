@@ -3,6 +3,9 @@ view: order_items {
 
   sql_table_name: `looker-private-demo.{{_user_attributes['demo_schema_name']}}.order_items` ;;
 
+
+ #All of these dimensions are the shared dims and measures for all customers
+
   dimension: id {
     primary_key: yes
     type: number
